@@ -114,47 +114,48 @@ nav section a div:hover {
   padding-left: 10px;
   font-weight: bold;
   position: absolute;
-  top: 0px;
+  top: 25px;
 }
 .P1 {
   padding: 10px;
   font-size: 20px;
   position: absolute;
-  top: 70px;
+  top: 60px;
+  width: 1600px;
 }
 .P2 {
   padding: 10px;
   font-size: 20px;
   position: absolute;
-  top: 220px;
+  top: 280px;
   width: 700px;
 }
 .P3 {
   padding: 10px;
   font-size: 20px;
   position: absolute;
-  top: 400px;
+  top: 480px;
   width: 700px;
 }
 .P4 {
   padding: 10px;
   font-size: 20px;
   position: absolute;
-  top: 580px;
-  width: 700px;
+  top: 680px;
+  width: 800px;
 }
 .ABUS-H2 {
   padding-left: 10px;
   font-size: 28px;
   position: absolute;
-  top: 137px;
+  top: 180px;
   margin-top: 10px;
 }
 .ABUS-H3 {
   padding-left: 10px;
   font-size: 24px;
   position: absolute;
-  top: 180px;
+  top: 240px;
   text-decoration: underline;
   margin-top: 10px;
 }
@@ -162,7 +163,7 @@ nav section a div:hover {
   padding-left: 10px;
   font-size: 24px;
   position: absolute;
-  top: 360px;
+  top: 440px;
   text-decoration: underline;
   margin-top: 10px;
 }
@@ -170,7 +171,7 @@ nav section a div:hover {
   padding-left: 10px;
   font-size: 24px;
   position: absolute;
-  top: 540px;
+  top: 640px;
   text-decoration: underline;
   margin-top: 10px;
 }
@@ -184,56 +185,96 @@ nav section a div:hover {
 }
 .Our-Values {
   position: relative;
+  border-top: solid #FAB408;
+  border-bottom: solid #FAB408;
 }
 
 .OV-H1 {
   padding-left: 10px;
   font-size: 28px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .OV-H2 {
   padding-left: 10px;
   font-size: 24px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .OV-H3 {
   padding-left: 10px;
   font-size: 24px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .OV-H4 {
   padding-left: 10px;
   font-size: 24px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .OV-H5 {
   padding-left: 10px;
   font-size: 24px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .OV-P1 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
+  width: 1000px;
 }
 .OV-P2 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
+  width: 1000px;
 }
 .OV-P3 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
+  width: 1000px;
 }
 .OV-P4 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
+  width: 1000px;
+}
+.Our-Team {
+  border: none;
+}
+.OT-H1 {
+  padding-left: 10px;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.OT-H2 {
+  padding-left: 10px;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.OT-H3 {
+  padding-left: 10px;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.OT-P1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  top: 10px;
+  width: 1000px;
+}
+.OT-P2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  top: 10px;
+  width: 1000px;
 }
 
 footer {
@@ -243,4 +284,8 @@ footer {
   color: white;
   height: 40px;
   border-top: solid #FAB408;
+}
+.FT-IMG-1 {
+  display: flex;
+  justify-self: left;
 }
