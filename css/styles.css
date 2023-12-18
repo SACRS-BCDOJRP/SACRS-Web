@@ -121,28 +121,28 @@ nav section a div:hover {
   font-size: 20px;
   position: absolute;
   top: 60px;
-  width: 1600px;
+  width: 80%;
 }
 .P2 {
   padding: 10px;
   font-size: 20px;
   position: absolute;
   top: 280px;
-  width: 700px;
+  width: 50%;
 }
 .P3 {
   padding: 10px;
   font-size: 20px;
   position: absolute;
   top: 480px;
-  width: 700px;
+  width: 50%;
 }
 .P4 {
   padding: 10px;
   font-size: 20px;
   position: absolute;
   top: 680px;
-  width: 800px;
+  width: 55%;
 }
 .ABUS-H2 {
   padding-left: 10px;
@@ -178,15 +178,21 @@ nav section a div:hover {
 
 .img1-IND {
   border: none;
+  border-bottom: solid #FAB408;
 }
-/*Our Values Stuff*/
 .img2-IND {
   border: none;
+  right: 0%;
+  position: absolute;
+  width: 55%;
+  display: flex;
+  margin-top: 0%;
 }
+/*Our Values Stuff*/
 .Our-Values {
   position: relative;
-  border-top: solid #FAB408;
   border-bottom: solid #FAB408;
+  width: 60%;
 }
 
 .OV-H1 {
@@ -219,31 +225,29 @@ nav section a div:hover {
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
-  width: 1000px;
 }
 .OV-P2 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
-  width: 1000px;
 }
 .OV-P3 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
-  width: 1000px;
 }
 .OV-P4 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
-  width: 1000px;
 }
+/*Our Team Stuff*/
 .Our-Team {
   border: none;
+  width: 60%;
 }
 .OT-H1 {
   padding-left: 10px;
@@ -267,25 +271,39 @@ nav section a div:hover {
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
-  width: 1000px;
 }
 .OT-P2 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   top: 10px;
-  width: 1000px;
 }
-
-footer {
+.Footer {
   background-color: #000;
   padding: 10px;
-  text-align: center;
   color: white;
-  height: 40px;
   border-top: solid #FAB408;
+  text-decoration: none;
+  display: flex;
+  text-decoration: white;
+  align-items: center;
+  justify-content: center;
 }
+
 .FT-IMG-1 {
   display: flex;
   justify-self: left;
+  position: absolute;
+  left: 0%;
+}
+.Footer a {
+  text-decoration: none;
+}
+.Footer div {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
