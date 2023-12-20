@@ -1,13 +1,6 @@
-.BGIMG{
-  flex-wrap: nowrap;
-  background-size: cover;
-  background-repeat: no-repeat;
-  justify-self: center;
-}
-
 body {
   background-image: url("");
-    background-color: #000000;
+    background-color: #2b2b2b;
     margin:0;
   font-family: 'Noto Sans', sans-serif;
   color: white;
@@ -278,6 +271,51 @@ nav section a div:hover {
   font-size: 20px;
   top: 10px;
 }
+/*Request Us Page*/
+.Request-Us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Rq-Box {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  width: 50%;
+}
+.Rq-Box p {
+  color: #000;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.Request-Us a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+.Request-Us a div {
+  padding: 15px 40px;
+  background-color: #FAB408;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.Request-Us a div:hover {
+  text-decoration: 4px underline#000;
+}
+
+/*Footer Stuff*/
 .Footer {
   background-color: #000;
   padding: 10px;
@@ -285,25 +323,35 @@ nav section a div:hover {
   border-top: solid #FAB408;
   text-decoration: none;
   display: flex;
+  flex-direction: row;
   text-decoration: white;
   align-items: center;
   justify-content: center;
+  bottom: auto;
 }
-
 .FT-IMG-1 {
   display: flex;
-  justify-self: left;
   position: absolute;
   left: 0%;
+  align-items: center;
+  justify-content: center;
 }
 .Footer a {
   text-decoration: none;
 }
-.Footer div {
+.FT-Links{
   display: flex;
-  text-decoration: none;
+  flex-direction: row;
+}
+.FT-Links div {
   color: white;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+}
+.FT-G-Link1 {
+  color: white;
+
+}
+.FT-G-Link2 {
+  margin-left: 50px;
+  color: white;
 }
