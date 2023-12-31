@@ -360,10 +360,12 @@ nav section a div:hover {
 }
 .L-H1 {
   text-decoration: underline solid 5px black;
+  margin: 0.4%;
 }
 .L-B p {
   color: black;
   font-size: 22px;
+  margin: 0.2%;
 }
 /*Footer Stuff*/
 .Footer {
