@@ -20,13 +20,6 @@ body {
   h3 {
     margin: 1%;
   }
-nav {
-  Width: 100;
-  Margin: 0 auto;
-  Height: 80px;
-  background-color: black
-;
-}
     /*Nav Bar styling*/
 .nav-bar{
   display: flex;
@@ -103,72 +96,36 @@ nav section a div:hover {
 /*About Us Stuff*/
 .About-Us {
   border: none;
-  position: relative;;
+  background-image: url(../assets/imgs/SACRS-Home_Cnt.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid #FAB408;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+.ABUS-Box {
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 5%;
+  width: 70%;
+  margin: 5% 0px 5% 0px;
 }
 .ABUS-H1 {
   padding-left: 10px;
   font-weight: bold;
-  position: absolute;
-  top: 25px;
 }
-.P1 {
+.I-P1 {
   padding: 10px;
   font-size: 20px;
-  position: absolute;
-  top: 60px;
-  width: 80%;
-}
-.P2 {
-  padding: 10px;
-  font-size: 20px;
-  position: absolute;
-  top: 280px;
-  width: 50%;
-}
-.P3 {
-  padding: 10px;
-  font-size: 20px;
-  position: absolute;
-  top: 480px;
-  width: 50%;
-}
-.P4 {
-  padding: 10px;
-  font-size: 20px;
-  position: absolute;
-  top: 680px;
-  width: 55%;
-}
-.ABUS-H2 {
-  padding-left: 10px;
-  font-size: 28px;
-  position: absolute;
-  top: 180px;
-  margin-top: 10px;
-}
-.ABUS-H3 {
-  padding-left: 10px;
-  font-size: 24px;
-  position: absolute;
-  top: 240px;
-  text-decoration: underline;
-  margin-top: 10px;
-}
-.ABUS-H4 {
-  padding-left: 10px;
-  font-size: 24px;
-  position: absolute;
-  top: 440px;
-  text-decoration: underline;
-  margin-top: 10px;
-}
-.ABUS-H5 {
-  padding-left: 10px;
-  font-size: 24px;
-  position: absolute;
-  top: 640px;
-  text-decoration: underline;
-  margin-top: 10px;
+  color: #000;
 }
 
 .img1-IND {
@@ -179,7 +136,7 @@ nav section a div:hover {
   border: none;
   right: 0%;
   position: absolute;
-  width: 55%;
+  width: 54%;
   display: flex;
   margin-top: 0%;
 }
