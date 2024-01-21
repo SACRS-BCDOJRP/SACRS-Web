@@ -509,7 +509,7 @@ body {
       transition: all 0.3s ease;
 
       &:hover {
-        color: tomato;
+        color: #FAB408;
       }
     } 
 
@@ -558,7 +558,7 @@ body {
       &:checked~span {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #232323;
+        background: #ffffff;
 
         &:nth-last-child(3) {
           opacity: 0;
