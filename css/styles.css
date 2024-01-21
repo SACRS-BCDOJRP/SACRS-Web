@@ -836,6 +836,9 @@ body {
 }
 @media screen and (max-width: 750px) {
   /*Index Page*/
+  .ABUS-Box {
+    width: 89%;
+  }
   .ABUS-Box-2 {
     display: flex;
     flex-direction: column;
@@ -845,16 +848,17 @@ body {
     display: none;
   }
   .Our-Values {
-    margin-left: 20%;
+    margin-left: 5%;
+    width: 89%;
   }
   .Our-Team-I {
-    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 5%;
+    width: 89%;
   }
   .Our-Team-I p {
     display: flex;
@@ -866,5 +870,18 @@ body {
   /*Request US Page*/
   .Rq-Box {
     width: 80%;
+    z-index: -1;
+  }
+  /*Construction*/
+  .Con-Box-2 {
+    padding: 1.7rem;
+  }
+  /*Logistics*/
+  .Log-Box-2 {
+    padding: 1.7rem;
+  }
+  /*Road Work*/
+  .RW-Box-2 {
+    padding: 1.7rem;
   }
 }
