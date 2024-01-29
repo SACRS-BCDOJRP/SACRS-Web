@@ -217,7 +217,6 @@ nav section a div:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  z-index: 1;
 }
 
 .Rq-Box {
@@ -289,11 +288,9 @@ nav section a div:hover {
 }
 .Construction-2 {
   display: flex;
-  background-color: #000;
 }
 .Con-Box-2 {
   display: flex;
-  color: #000000;
   font-weight: 900;
   font-size: 1.5rem;
   padding: 3rem;
@@ -332,7 +329,6 @@ nav section a div:hover {
 }
 .Road-Work-2 {
   display: flex;
-  background-color: #000;
 }
 .RW-Box-2 {
   display: flex;
@@ -376,7 +372,6 @@ nav section a div:hover {
 }
 .Logistics-2 {
   display: flex;
-  background-color: #000;
 }
 .Log-Box-2 {
   display: flex;
@@ -436,6 +431,109 @@ nav section a div:hover {
   font-size: 22px;
   margin: 0.2%;
 }
+/*Projects*/
+.Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-image: url(../assets/imgs/Logistics-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid #FAB408;
+  padding: 10%;
+}
+.Pro-H1 {
+  color: #000000;
+  font-weight: 900;
+  font-size: 3rem;
+  
+}
+.Pro-Box {
+  background-color: rgba(255, 255, 255, 0.7);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+}
+.Projects-2 {
+  display: flex;
+  border-bottom: solid #FAB408;
+}
+.Pro-Box-2 {
+  display: flex;
+  color: #000000;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+.Projects-3 {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Pro-Box-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  margin-top: 15px;
+}
+.Pro-Box-3 div {
+  border: 4px solid #000;
+  margin-right: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  background-color: #ffffff;
+  width: 40%;
+  margin-top: 15px;
+  margin: 2%;
+}
+.Pro-Box-3 div p {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.Pro-Box-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  margin-top: 15px;
+}
+.Pro-Box-4 div {
+  border: 4px solid #000;
+  margin-right: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  background-color: #ffffff;
+  width: 40%;
+  margin-top: 15px;
+  margin: 2%;
+}
+.Pro-Box-4 div p {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
 /*Footer Stuff*/
 .Footer {
   background-color: #000;
@@ -463,6 +561,7 @@ nav section a div:hover {
 .FT-Links{
   display: flex;
   flex-direction: row;
+  border: none;
 }
 .FT-Links div {
   color: white;
@@ -536,7 +635,8 @@ body {
       background: #cdcdcd;
       border-radius: 3px;
       z-index: 1;
-      top: -15px;
+      top: 5px;
+      margin-right: 5px;
       transform-origin: 4px 0px;
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
         background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
@@ -618,11 +718,12 @@ body {
 
   .menu--right {
     .menuToggle {
-      position: fixed;
-      right: 0;
-
+      display: relative;
+      right: -200px;
+      top: 0px;
       input {
         right: 50px;
+        top: 0%;
       }
 
       span {
@@ -837,6 +938,7 @@ body {
   /*Index Page*/
   .ABUS-Box {
     width: 89%;
+    margin-right: 14px;
   }
   .ABUS-Box-2 {
     display: flex;
@@ -881,5 +983,8 @@ body {
   /*Road Work*/
   .RW-Box-2 {
     padding: 1.7rem;
+  }
+  .FT-IMG-1 {
+    display: none;
   }
 }
