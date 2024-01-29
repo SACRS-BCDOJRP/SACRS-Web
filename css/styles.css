@@ -437,7 +437,7 @@ nav section a div:hover {
   flex-direction: column;
   align-items: center;
   border: none;
-  background-image: url(../assets/imgs/Logistics-1.jpg);
+  background-image: url(../assets/imgs/Back-Of-Alter-Pro.jpg);
   background-size: cover;
   background-position: center;
   border-bottom: solid #FAB408;
@@ -502,7 +502,7 @@ nav section a div:hover {
   margin-top: 15px;
   margin: 2%;
 }
-.Pro-Box-3 div p {
+.Pro-P1 {
   color: #000;
   font-size: 1.5rem;
   font-weight: 900;
@@ -529,10 +529,11 @@ nav section a div:hover {
   margin-top: 15px;
   margin: 2%;
 }
-.Pro-Box-4 div p {
+.Pro-Text {
   color: #000;
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0.7%;
 }
 /*Footer Stuff*/
 .Footer {
@@ -986,5 +987,21 @@ body {
   }
   .FT-IMG-1 {
     display: none;
+  }
+  /*Projects*/
+  .Pro-Box-2 {
+    padding: 1rem;
+  }
+  .Pro-Box-3 {
+    flex-direction: column;
+  }
+  .Pro-Box-4 {
+    flex-direction: column;
+  }
+  .Pro-Box-3 div {
+    width: 85%;
+  }
+  .Pro-Box-4 div {
+    width: 85%;
   }
 }
