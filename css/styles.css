@@ -387,8 +387,14 @@ nav section a div:hover {
 /*Our Team Page*/
 .Our-Team {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  border: none;
+  background-image: url(../assets/imgs/Bridge-LS.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid #FAB408;
+  padding: 10%;
 }
 .OT-B {
   color: black;
@@ -398,7 +404,7 @@ nav section a div:hover {
   border: solid 5px #FAB408;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255,0.4);
+  background-color: rgba(255, 255, 255,0.9);
   font-size: 22px;
 }
 .OT-B p {
@@ -407,12 +413,19 @@ nav section a div:hover {
 }
 .OT-B h3 {
   text-decoration: underline 2px black;
+  text-align: center;
 }
 /*Licenses Page*/
 .License {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  border: none;
+  background-image: url(../assets/imgs/Hq.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid #FAB408;
+  padding: 10%;
 }
 .L-B {
   color: black;
@@ -433,6 +446,7 @@ nav section a div:hover {
   color: black;
   font-size: 22px;
   margin: 0.2%;
+  text-align: center;
 }
 /*Projects*/
 .Projects {
@@ -608,6 +622,152 @@ nav section a div:hover {
   padding-left: 1.5rem;
 }
 .Par-Box2 p {
+  font-weight: 600;
+  color: #000;
+}
+/*Contact Us*/
+.Contact-US {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-image: url(../assets/imgs/Mirror-Park-CUS.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid #FAB408;
+  padding: 10%;
+}
+.Cont-H1 {
+  color: #000000;
+  font-weight: 900;
+  font-size: 3rem;
+  
+}
+.Cont-Box {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+}
+.Cont-Box1 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+  text-align: center;
+}
+.Cont-Box1 p {
+  color: #000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.Cont-Box2 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.Cont-Box2 ul {
+  padding-left: 1.5rem;
+}
+.Cont-Box2 p {
+  font-weight: 600;
+  color: #000;
+}
+/*JoinOurTeam*/
+.JoinOurTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-image: url(../assets/imgs/JOT.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid #FAB408;
+  padding: 10%;
+}
+.JOT-H1 {
+  color: #000000;
+  font-weight: 900;
+  font-size: 3rem;
+  
+}
+.JOT-Box {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+}
+.JOT-Box1 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+  text-align: center;
+}
+.JOT-Box1 p {
+  color: #000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.JOT-Box2 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.JOT-Box2 ul {
+  padding-left: 1.5rem;
+}
+.JOT-Box2 p {
   font-weight: 600;
   color: #000;
 }
@@ -1083,5 +1243,13 @@ body {
   }
   .Pro-Box-4 div {
     width: 85%;
+  }
+  /*Liecense page*/
+  .L-B {
+    width: auto;
+  }
+  /*Our team*/
+  .OT-B {
+    width: auto;
   }
 }
