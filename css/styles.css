@@ -20,6 +20,9 @@ body {
   h3 {
     margin: 1%;
   }
+  ol {
+    padding: 0px;
+  }
     /*Nav Bar styling*/
 .nav-bar{
   display: flex;
@@ -535,6 +538,79 @@ nav section a div:hover {
   font-weight: 600;
   margin: 0.7%;
 }
+/*Partners*/
+.Partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-image: url(../assets/imgs/Partners\ page.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid #FAB408;
+  padding: 10%;
+}
+.Par-H1 {
+  color: #000000;
+  font-weight: 900;
+  font-size: 3rem;
+  
+}
+.Par-Box {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+}
+.Par-Box1 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+  text-align: center;
+}
+.Par-Box1 p {
+  color: #000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.Par-Box2 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  color: #000;
+  border: 2px solid #000;
+  margin-top: 40px;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.Par-Box2 ul {
+  padding-left: 1.5rem;
+}
+.Par-Box2 p {
+  font-weight: 600;
+  color: #000;
+}
 /*Footer Stuff*/
 .Footer {
   background-color: #000;
@@ -588,6 +664,10 @@ body {
 @media screen and (max-width: 750px) {
   .nav-items {
     display: none;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
   .Hamburger {
